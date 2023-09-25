@@ -1,0 +1,53 @@
+.title {
+}
+
+.title__label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  color: #656d72;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2; /* 200% */
+  letter-spacing: 7.5px;
+  padding-left: 35px;
+  text-transform: uppercase;
+}
+
+.title__label::before {
+  content: '';
+  width: 16px;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.title__label:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.title__value {
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  span {
+    color: #7e74f1;
+  }
+}
+
+.title__value_big {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+}
+
+.text p:not(:last-child) {
+  margin-bottom: 15px;
+}
