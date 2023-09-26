@@ -18,7 +18,7 @@
 
 @media (max-width: 1199.98px) {
   [class*='__container'] {
-    // max-width: 970px;
+    max-width: 970px;
     max-width: calc(970px + (1199.98 - 970) * ((100vw - 320px) / (1200 - 320)));
   }
 }

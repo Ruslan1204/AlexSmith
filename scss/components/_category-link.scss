@@ -1,0 +1,16 @@
+.category-link {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+  padding: 4px 8px;
+
+  color: #656d72;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.category-link:hover{
+    background-color: rgba(141, 131, 131, 0.1);
+}

@@ -3,20 +3,31 @@
 
 .hero {
 }
+
 .hero__container {
   display: grid;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-top: 241px;
+  padding-bottom: 144px;
   min-height: 100%;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 30px;
+}
+ 
+
+@media (max-width: 991.98px) {
+  .hero__container {
+    padding-top: 180px;
+    padding-bottom: 80px;
+  }
 }
 
 @media (max-width: 767.98px) {
   .hero__container {
     grid-template-columns: 1fr;
     row-gap: 25px;
+    padding-top: 100px;
+    padding-bottom: 80px;
   }
 }
 

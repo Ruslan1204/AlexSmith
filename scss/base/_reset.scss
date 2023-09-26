@@ -41,7 +41,7 @@ body {
   color: #232e35;
 }
 
-body._lock{
+body._lock {
   overflow: hidden;
 }
 
@@ -51,3 +51,29 @@ button {
   font-size: inherit;
   color: inherit;
 }
+
+[class*='-ibg'] {
+  position: relative;
+}
+
+[class*='-ibg'] img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+// .item-portfolio-image-ibg{
+//   position: relative;
+// }
+
+// .item-portfolio-image-ibg img {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   left: 0;
+//   object-fit: cover;
+// }

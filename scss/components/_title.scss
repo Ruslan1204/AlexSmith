@@ -41,13 +41,13 @@
   font-weight: 700;
   line-height: normal;
 }
-
+ 
 .text {
   font-size: 16px;
   font-weight: 400;
   line-height: 2; /* 200% */
 }
 
-.text p:not(:last-child) {
-  margin-bottom: 15px;
+.text p:not(:last-child){
+margin-bottom: 15px;
 }

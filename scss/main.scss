@@ -5,7 +5,7 @@
 
 @import 'components/title';
 @import 'components/fullscreen';
-
+@import 'components/category-link';
 
 @import 'base/container';
 @import 'base/reset';
@@ -13,4 +13,5 @@
 @import 'layouts/header';
 @import 'layouts/hero';
 @import 'layouts/footer';
-
+@import 'layouts/services';
+@import 'layouts/portfolio';
