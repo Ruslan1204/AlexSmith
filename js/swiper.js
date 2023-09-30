@@ -13,12 +13,12 @@ const swiper = new Swiper('.portfolio__slider', {
   breakpoints: {
     // when window width is >= 320px
     320: {
-      slidesPerView: 1,
-      spaceBetween: 0,
+      slidesPerView: 1.1,
+      spaceBetween: 5,
       autoHeight: true,
     },
     // when window width is >= 480px
-    768: {
+    650: {
       slidesPerView: 2,
       spaceBetween: 15,
     },

@@ -1,0 +1,36 @@
+.page__career {
+}
+.career {
+}
+.career__container {
+  padding-top: 114px;
+  padding-bottom: 184px;
+
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+}
+
+.career__tabs {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.tabs-career {
+}
+
+.career-navigation {
+}
+.navigation-career {
+}
+.navigation-career__title {
+}
+.active {
+}
+.career__content {
+}
+.content-career {
+}
+.content-career__body {
+}

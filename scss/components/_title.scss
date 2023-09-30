@@ -28,7 +28,8 @@
 
 .title__value {
   font-family: Plus Jakarta Sans;
-  font-size: 36px;
+  // font-size: 36px;
+  font-size: calc(28px + (36 - 28) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 700;
   line-height: normal;
   span {
@@ -37,9 +38,10 @@
 }
 
 .title__value_big {
-  font-size: 44px;
+  // font-size: 44px;
   font-weight: 700;
   line-height: normal;
+  font-size: calc(36px + (44 - 36) * ((100vw - 320px) / (1200 - 320)));
 }
  
 .text {
