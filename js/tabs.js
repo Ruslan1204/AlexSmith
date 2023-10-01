@@ -21,3 +21,5 @@ document.addEventListener('click', function (evt) {
     tabItems[newActiveIndex].classList.add('active');
   }
 });
+
+
