@@ -1,0 +1,119 @@
+.page__blog {
+}
+.blog {
+}
+
+.blog__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 145px;
+  padding-bottom: 181px;
+}
+
+@media (max-width: 967.98px) {
+  .blog__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .blog__container {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+}
+
+.blog__title {
+  margin-bottom: calc(30px + (144 - 30) * ((100vw - 320px) / (1200 - 320)));
+}
+
+.title__value_big {
+}
+
+.blog__items {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: calc(20px + (40 - 20) * ((100vw - 320px) / (1200 - 320)));
+}
+
+.blog__item {
+}
+
+.item-blog {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 100%;
+
+  border: 1px solid #f1f1f1;
+}
+
+.item-blog__image-ibg {
+  padding-bottom: 67.3%;
+  overflow: hidden;
+}
+
+.item-blog__image-ibg:hover img {
+  transition: transform 800ms ease 0ms;
+}
+
+.item-blog__image-ibg:hover img {
+  transform: scale(1.05);
+}
+
+.item-blog__body {
+  padding: 16px 16px 24px 16px;
+  display: grid;
+  gap: 16px;
+}
+
+.item-blog__title {
+}
+.item-blog__link-title {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+}
+
+.item-blog__link-title:hover {
+  text-decoration: underline;
+}
+
+.item-blog__date {
+  justify-self: start;
+}
+.date {
+  display: inline-block;
+  color: #656d72;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  background: #fbfbfb;
+  padding: 4px 8px;
+}
+.item-blog__text {
+  color: #656d72;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+}
+.item-blog__link {
+  color: #656d72;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.item-blog__link:hover {
+  text-decoration: underline;
+  color: #656d72;
+}

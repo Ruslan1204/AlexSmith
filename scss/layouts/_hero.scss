@@ -37,12 +37,12 @@
 .title {
 }
 
-.title:not(:last-child) {
+.hero .title:not(:last-child) {
   //   margin-bottom: 32px;
   margin-bottom: calc(16px + (32 - 16) * ((100vw - 320px) / (1200 - 320)));
 }
 
-.text:not(:last-child) {
+.hero .text:not(:last-child) {
   //   margin-bottom: 40px;
   margin-bottom: calc(20px + (40 - 20) * ((100vw - 320px) / (1200 - 320)));
 }
