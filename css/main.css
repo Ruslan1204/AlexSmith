@@ -1408,8 +1408,34 @@ button {
   }
 }
 .contacts__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 850px) {
+  .contacts__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+.contacts__form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+@media (max-width: 850px) {
+  .contacts__form {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 100%;
+  }
 }
 
 .form {
@@ -1490,7 +1516,25 @@ textarea.form__input {
 }
 
 .contacts__body {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
   padding-left: calc(20px + 85 * (100vw - 320px) / 880);
+}
+@media (max-width: 850px) {
+  .contacts__body {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .contacts__list {
+    margin-bottom: 30px;
+  }
 }
 
 .list-contacts {
@@ -1545,4 +1589,38 @@ textarea.form__input {
 
 .list-contacts__text:hover {
   text-decoration: underline;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  padding-top: calc(20px + 68 * (100vw - 320px) / 880);
+  padding-bottom: calc(20px + 68 * (100vw - 320px) / 880);
+}
+
+.social__link {
+  fill: #656d72;
+}
+
+.social__link:hover {
+  fill: #7e74f1;
+}
+
+.footer__copy {
+  color: #656d72;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,34 @@
+.footer {
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+
+  padding-top: calc(20px + (88 - 20) * ((100vw - 320px) / (1200 - 320)));
+  padding-bottom: calc(20px + (88 - 20) * ((100vw - 320px) / (1200 - 320)));
+}
+.footer__social {
+}
+.social {
+}
+.social_item {
+}
+
+.social__link {
+  fill: #656d72;
+}
+
+.social__link:hover {
+  fill: #7e74f1;
+}
+
+.footer__copy {
+  color: #656d72;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
