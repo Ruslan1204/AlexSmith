@@ -35,9 +35,9 @@
   gap: 40px;
 }
 
-@media (min-width: 767.98px) {
+@media (min-width: 850px) {
   .skills__body {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 54.8%;
   }
 }
 

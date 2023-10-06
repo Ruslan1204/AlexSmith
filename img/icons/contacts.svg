@@ -1,0 +1,13 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-address" viewBox="0 0 20 32">
+<path fill="none" stroke="#7e74f1" style="stroke: var(--color1, #7e74f1)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.5263" d="M10.105 17.591v12.725M10.105 17.591c4.651 0 8.421-3.561 8.421-7.953s-3.77-7.953-8.421-7.953c-4.651 0-8.421 3.561-8.421 7.953s3.77 7.953 8.421 7.953z"></path>
+</symbol>
+<symbol id="icon-email" viewBox="0 0 43 32">
+<path fill="none" stroke="#7e74f1" style="stroke: var(--color1, #7e74f1)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M2.758 2.714c0.386-0.358 0.919-0.58 1.508-0.58h34.133c0.589 0 1.122 0.222 1.508 0.58M2.758 2.714c-0.386 0.358-0.625 0.854-0.625 1.401v23.771c0 1.094 0.955 1.981 2.133 1.981h34.133c1.178 0 2.133-0.887 2.133-1.981v-23.771c0-0.547-0.239-1.042-0.625-1.401M2.758 2.714l15.558 14.447c1.666 1.547 4.368 1.547 6.034 0l15.558-14.447"></path>
+</symbol>
+<symbol id="icon-phone" viewBox="0 0 34 32">
+<path fill="none" stroke="#7e74f1" style="stroke: var(--color1, #7e74f1)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.5263" d="M21.053 7.251c1.242 0.229 2.474 0.746 3.368 1.591s1.442 2.009 1.684 3.181M21.895 1.684c2.579 0.271 4.901 1.449 6.737 3.181s3.079 3.927 3.368 6.363M31.999 23.121v4.31c0.007 1.648-1.562 3.023-3.323 2.873-15.202 0.011-26.992-11.227-26.98-25.488-0.159-1.655 1.291-3.131 3.033-3.132h4.573c0.74-0.007 1.457 0.24 2.018 0.695 1.595 1.293 2.62 5.68 2.226 7.424-0.308 1.362-1.762 2.314-2.75 3.246 2.17 3.597 5.33 6.575 9.146 8.621 0.988-0.932 1.999-2.301 3.444-2.592 1.853-0.373 6.529 0.598 7.892 2.114 0.484 0.538 0.74 1.224 0.722 1.929z"></path>
+</symbol>
+</defs>
+</svg>

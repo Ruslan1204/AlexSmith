@@ -1,0 +1,135 @@
+.page__contacts {
+  background-color: #fbfbfb;
+}
+
+.contacts {
+}
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 104px;
+  padding-bottom: 134px;
+}
+
+@media (max-width: 967.98px) {
+  .contacts__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contacts__container {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+}
+
+.contacts__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contacts__form {
+}
+
+.form {
+  display: grid;
+  gap: 16px;
+}
+.form__item {
+  &:last-child {
+    padding-top: 22px;
+  }
+}
+
+.form__input {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  padding: 0 24px;
+  background-color: #fff;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__input::placeholder {
+  color: #656d72;
+
+  &:focus {
+    &::placeholder {
+      color: #232e35;
+    }
+  }
+}
+
+textarea.form__input {
+  height: 190px;
+  resize: vertical;
+  padding: 24px;
+}
+
+.form__button {
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  border: 1px solid #eae6fe;
+  background-color: rgba(92, 79, 235, 0.3);
+  color: #f5f3fe;
+  transition: background-color 300ms ease 0ms;
+}
+
+.form__button:hover {
+  background-color: #7e74f1;
+}
+
+.contacts__body {
+  padding-left: calc(20px + (105 - 20) * ((100vw - 320px) / (1200 - 320)));
+}
+.contacts__list {
+}
+
+.list-contacts {
+  display: grid;
+  gap: calc(20px + (48 - 20) * ((100vw - 320px) / (1200 - 320)));
+}
+.list-contacts__item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.list-contacts__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: #f5f3fe;
+}
+.list-contacts__body {
+}
+.list-contacts__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.list-contacts__title:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.list-contacts__text {
+  color: #656d72;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71; /* 171.429% */
+}
+
+.list-contacts__text:hover {
+  text-decoration: underline;
+}
