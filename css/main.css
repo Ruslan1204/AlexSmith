@@ -680,7 +680,7 @@ button {
   background-color: #c1b7f2;
 }
 
-.xz {
+.portfolio__slider-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
